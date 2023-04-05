@@ -2,9 +2,6 @@ nav {
 	height: 50px;
 	background-color: #d9d9d9;
 	flex-wrap: wrap;
-
-	/*untuk custom
-	--bs-breadcrumb-divider: '';*/
 }
 
 nav ol li a {
@@ -22,39 +19,31 @@ ol li {
 	padding: 10px 0px 10px 10px;
 }
 
-content {
+section {
+	max-width: 80%;
 	margin: auto;
-}
-
-.page1 i {
-	padding: 20px;
-}
-
-img.keyboard {
-	height: 100px;
-	padding: 10px;
-}
-
-.page2 i {
-	padding: 20px;
-}
-
-.page1 .card {
-	height: 300px;
-}
-
-.page2 .card {
-	height: 350px;
-	align-items: center;
 	display: flex;
 }
 
-.page3 .card {
-	height: 380px;
+section .judul {
+	text-align: center;
+	display: block;
+}
+
+.card {
+	margin: 12px auto;
+	display: flex;
+	gap: 10px;
+	padding: 20px;
+}
+
+.card img {
+	padding: 20px;
 }
 
 .card a i {
 	color: rgb(30, 48, 80);
+	padding-left: 20px;
 	opacity: 50%;
 	-webkit-trasition: 0.3s ease;
 	transition: 0.3s ease;
@@ -69,34 +58,6 @@ img.keyboard {
 .card .card-text {
 	text-align: center;
 	align-items: center;
-}
-
-img.mouse {
-	height: 150px;
-	width: 100px;
-}
-
-.page3 i {
-	padding: 20px;
-}
-
-.page1, .page2, .page3 {
-	padding: 20px;
-	flex-wrap: wrap;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-}
-
-img.logo {
-	float: center;
-	display: block;
-}
-
-.card {
-	padding: 10px;
-	margin: 20px;
 }
 
 footer {
@@ -122,17 +83,4 @@ footer .d-flex {
 	opacity: 100%;
 	-webkit-transform: scale(1.35);
 	transform: scale(1.35);
-}
-
-.perlinkan a {
-	opacity: 50%;
-	text-align: center;
-	-webkit-trasition: 0.3s ease;
-	transition: 0.3s ease;
-	padding: 0px 10px;
-}
-
-.perlinkan a:hover {
-	opacity: 100%;
-	text-decoration: underline;
 }

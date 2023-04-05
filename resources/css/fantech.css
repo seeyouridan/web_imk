@@ -27,6 +27,32 @@ content {
 	padding: 20px;
 }
 
+.page1 .card, .page3 .card {
+	height: 300px;
+}
+
+.page2 .card {
+	height: 350px;
+}
+
+.card a i {
+	color: rgb(30, 48, 80);
+	opacity: 50%;
+	-webkit-trasition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.card a i:hover {
+	opacity: 100%;
+	-webkit-transform: scale(1.35);
+	transform: scale(1.35);
+}
+
+.card .card-text {
+	text-align: center;
+	align-items: center;
+}
+
 .page2 i {
 	padding: 20px;
 }
@@ -74,18 +100,12 @@ footer .d-flex {
 	align-items: center;
 }
 
-.d-flex i {
-	opacity: 50%;
-	-webkit-trasition: 0.25s ease;
-	transition: 0.25s ease;
-	padding: 0px 10px;
-}
-
 .d-flex a {
 	cursor: pointer;
 }
 
 .d-flex p.cpr {
+	padding-top: 10px;
 	opacity: 50%;
 }
 

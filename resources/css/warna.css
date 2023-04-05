@@ -1,0 +1,43 @@
+nav {
+	background-color: #d9d9d9;
+	height: 50px;
+	flex-wrap: wrap;
+}
+
+nav ol li a {
+	color: black;
+	text-decoration: none;
+	-webkit-trasition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+nav ol li a:hover {
+	text-decoration: underline;
+}
+
+ol li {
+	padding: 10px 0px 10px 10px;
+}
+
+section {
+	padding: 20px;
+	margin: auto;
+	max-width: 80%;
+}
+
+section img {
+	align-items: center;
+	margin: auto;
+	height: 400px;
+	display: flex;
+}
+
+.figure h3 {
+	text-align: center;
+}
+
+.figure p {
+	max-width: 80%;
+	margin: auto;
+	padding: 20px;
+}

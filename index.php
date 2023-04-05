@@ -8,15 +8,12 @@
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/fontawesome/css/all.css">
 
-	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css?<?php echo time(); ?>">
 
 	<link rel="website icon" type="png" href="resources/img/icoweb.png">
 </head>
 <body>
-	<nav class="d-flex sticky-top justify-content-between">
-		<a href="index.php">
-			<img src="resources/img/icoweb.png" height="40">
-		</a>
+	<nav class="d-flex sticky-top justify-content-center">
 		<ul class="nav">
 			<li class="nav-link"><a href="index.php">Beranda</a></li>
 			<div class="dropdown">
@@ -30,9 +27,9 @@
 				</ul>
 			</div>
 			<li class="nav-link"><a href="public/laptop.php">Laptop</a></li>
-			<li class="nav-link"><a href="public/rakitpc.php">Rakit PC</a></li>
+			<li class="nav-link"><a href="#warna">Warna Pallete</a></li>
+			<li class="nav-link"><a href="#tentang">Tentang</a></li>
 		</ul>
-		<a href="public/login.php"><i class="fa-solid fa-circle-user p-2 fa-2x"></i></a>
 	</nav>
 
 	<header>
@@ -67,6 +64,14 @@
 	<content>
 		<div class="page1">
 			<div class="card" style="width: 18rem;">
+				<i class="fa-regular fa-keyboard fa-4x"></i>
+				<div class="card-body">
+					<hr>
+					<p class="card-text">List beberapa equipment seperti keyboard, mouse, dan mousepad</p>
+				</div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
 				<i class="fa-solid fa-laptop fa-4x"></i>
 				<div class="card-body">
 					<hr>
@@ -74,19 +79,12 @@
 				</div>
 			</div>
 
-			<div class="card" style="width: 18rem;">
-				<i class="fa-regular fa-keyboard fa-4x"></i>
-				<div class="card-body">
-					<hr>
-					<p class="card-text">List beberapa equipment edisi gaming</p>
-				</div>
-			</div>
 
 			<div class="card" style="width: 18rem;">
-				<i class="fa-solid fa-basket-shopping fa-4x"></i>
+				<i class="fa-solid fa-palette fa-4x"></i>
 				<div class="card-body">
 					<hr>
-					<p class="card-text">Anda suka? Langsung beli dengan cara mengklik link yang tertera</p>
+					<p class="card-text">List beberapa kobinasi warna yang menarik untuk dicoba pada website anda</p>
 				</div>
 			</div>
 
@@ -99,36 +97,36 @@
 			</div>
 		</div>
 
-		<div class="page2">
+		<div class="page2" id="warna">
+			<div class="gambar">
+				<img src="resources/img/img-palette.jpg" height="450">
+			</div>
+
+			<div class="teks">
+				<center><h1>Warna Palette</h1></center>
+				<hr>
+				<p>Beberapa list kombinasi warna pallete untuk membangun suatu website yang dapat digunakan.</p>
+				<center>
+					<a class="btn" role="button" href="public/warna.php">Selengkapnya</a>
+				</center>
+			</div>
+		</div>
+
+		<div class="page3" id="tentang">
 			<div class="card text-center">
 				<div class="card-header">
 					Info Gaess
 				</div>
 				<div class="card-body">
-					<h5 class="card-title">Website buatan saya</h5>
-					<p class="card-text">Konten pada website ini berisi tentang beberapa informasi mengenai equipment seperti keyboard, mouse, dan lainnya. Termasuk rekomendasi laptop gaming.</p>
-					<a href="tentang.php" class="btn">Selengkapnya</a>
+					<h5 class="card-title">Website saya</h5>
+					<p class="card-text">Konten pada website ini berisi tentang beberapa informasi mengenai equipment seperti keyboard, mouse, dan lainnya. Termasuk rekomendasi laptop gaming dan juga beberapa kombinasi warna.</p>
+					<a href="public/tentang.php" class="btn">Selengkapnya</a>
 				</div>
 			</div>
 		</div>
-			
 	</content>
 
 	<footer>
-		<div class="d-flex flex-row" style="padding-top: 15px;">
-			<div class="p-2">
-				<p><a href="https://github.com/seeyouridan" target="_blank" class="nav-link"><i class="fa-brands fa-github fa-xl"></i></a></p>
-			</div>
-
-			<div class="p-2">
-				<p><a href="https://wa.me/6288212797825." target="_blank" class="nav-link"><i class="fa-brands fa-whatsapp fa-xl"></i></a></p>
-			</div>
-
-			<div class="p-2">
-				<p><a href="mailto:xeongaming021@email.com" target="_blank" class="nav-link"><i class="fa-solid fa-envelope fa-xl"></i></a></p>
-			</div>
-		</div>
-
 		<div class="d-flex flex-row">
 			<p class="cpr">©️ 2023 Rafly Maulidan, i&web</p>
 		</div>

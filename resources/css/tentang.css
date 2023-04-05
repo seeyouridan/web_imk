@@ -1,0 +1,68 @@
+nav {
+	height: 50px;
+	background-color: #d9d9d9;
+	flex-wrap: wrap;
+}
+
+nav ol li a {
+	color: black;
+	text-decoration: none;
+	-webkit-trasition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+nav ol li a:hover {
+	text-decoration: underline;
+}
+
+ol li {
+	padding: 10px 0px 10px 10px;
+}
+
+section .d-flex {
+	justify-content: center;
+	align-items: center;
+}
+
+section .d-flex i {
+	padding: 20px;
+	padding-top: 30px;
+	opacity: 50%;
+	-webkit-trasition: 0.25s ease;
+	transition: 0.25s ease;
+}
+
+section .d-flex a {
+	cursor: pointer;
+}
+
+section .d-flex i:hover {
+	opacity: 100%;
+	-webkit-transform: scale(1.35);
+	transform: scale(1.35);
+}
+
+.teks {
+	max-width: 80%;
+	margin: auto;
+	padding-top: 60px;
+}
+
+p.isi {
+	text-align: justify;
+}
+
+footer {
+	background-color: #1f1f1f;
+	color: white;
+}
+
+footer .d-flex {
+	justify-content: center;
+	align-items: center;
+}
+
+p.cpr {
+	padding-top: 10px;
+	opacity: 50%;
+}
